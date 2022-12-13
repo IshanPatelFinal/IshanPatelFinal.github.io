@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
@@ -14566,7 +14565,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 3> Project Owner: Ishan Patel</font></p>
+<p><font size = 3>Ishan Patel</font></p>
 
 </div>
 </div>
@@ -14582,7 +14581,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size=3> While the average human works day to day, people dont concern themselves with mundaine matters such as global warming. Over the past century, the temperature of the Earth's surface has risen approximately 1.1 degrees Celcius, while that might not seem to be much but it has an everlasting effect of the quality of life and effects on different parts of the planet. Throughout this project, I plan to analyze the data on how temperatures have risen over the past 70 years in different countries throughout the world. We want to figure out if global warming is something people should take more seriously or if its just being exaggerated. By the end of the project we will figure out if the rate of temperature increase is something to be concerned about in our lifetimes.</font></p>
+<p><font size=3> While the average human works day to day, people don't concern themselves with mundane matters such as global warming. Over the past century, the temperature of the Earth's surface has risen approximately 1.1 degrees Celsius, while that might not seem to be much but it has an everlasting effect on the quality of life and effects on different parts of the planet. Throughout this project, I plan to analyze the data on how temperatures have risen over the past 70 years in different countries throughout the world. We want to figure out if global warming is something people should take more seriously or if its just being exaggerated. By the end of the project we will figure out if the rate of temperature increase is something to be concerned about in our lifetimes.</font></p>
 
 </div>
 </div>
@@ -14598,7 +14597,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 3> The first step is to import the libraries that will allow us to extract, modify, analyse, and visualize data in a cleaner and efficient way. We will be using pandas and numpy to clean and modify and seaborn to create data visualizations. We are also using beautiful soup to scrape and parse the data into a neat and readable table format.</font></p>
+<p><font size = 3> The first step is to import the libraries that will allow us to extract, modify, analyze, and visualize data in a cleaner and efficient way. We will be using pandas and numpy to clean and modify and seaborn to create data visualizations. We are also using beautiful soup to scrape and parse the data into a neat and readable table format.</font></p>
 
 </div>
 </div>
@@ -14607,7 +14606,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[473]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -14637,7 +14636,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[474]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;./TempChange.csv&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;latin-1&#39;</span><span class="p">)</span>
@@ -14659,7 +14658,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[474]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
 
 
 
@@ -14851,13 +14850,22 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[475]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
 <span class="n">df</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;y&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;area code&#39;</span><span class="p">,</span> <span class="s1">&#39;months code&#39;</span><span class="p">,</span> <span class="s1">&#39;element code&#39;</span><span class="p">]</span> <span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">months_replace</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Dec</span><span class="se">\x96</span><span class="s1">Jan</span><span class="se">\x96</span><span class="s1">Feb&#39;</span><span class="p">:</span> <span class="s1">&#39;First Quarter&#39;</span><span class="p">,</span> <span class="s1">&#39;Mar</span><span class="se">\x96</span><span class="s1">Apr</span><span class="se">\x96</span><span class="s1">May&#39;</span><span class="p">:</span> <span class="s1">&#39;Second Quarter&#39;</span><span class="p">,</span> <span class="s1">&#39;Jun</span><span class="se">\x96</span><span class="s1">Jul</span><span class="se">\x96</span><span class="s1">Aug&#39;</span><span class="p">:</span> <span class="s1">&#39;Third Quarter&#39;</span><span class="p">,</span> <span class="s1">&#39;Sep</span><span class="se">\x96</span><span class="s1">Oct</span><span class="se">\x96</span><span class="s1">Nov&#39;</span><span class="p">:</span> <span class="s1">&#39;Fourth Quarter&#39;</span><span class="p">}</span>
+<span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;area code&#39;</span><span class="p">,</span> <span class="s1">&#39;months code&#39;</span><span class="p">,</span> <span class="s1">&#39;element code&#39;</span><span class="p">,</span><span class="s1">&#39;1962&#39;</span><span class="p">,</span> \
+                 <span class="s1">&#39;1963&#39;</span><span class="p">,</span><span class="s1">&#39;1964&#39;</span><span class="p">,</span><span class="s1">&#39;1965&#39;</span><span class="p">,</span><span class="s1">&#39;1966&#39;</span><span class="p">,</span><span class="s1">&#39;1967&#39;</span><span class="p">,</span><span class="s1">&#39;1968&#39;</span><span class="p">,</span> <span class="s1">&#39;1969&#39;</span><span class="p">,</span> \
+                 <span class="s1">&#39;1971&#39;</span> <span class="p">,</span><span class="s1">&#39;1972&#39;</span><span class="p">,</span> <span class="s1">&#39;1973&#39;</span><span class="p">,</span><span class="s1">&#39;1974&#39;</span><span class="p">,</span><span class="s1">&#39;1975&#39;</span><span class="p">,</span><span class="s1">&#39;1976&#39;</span><span class="p">,</span><span class="s1">&#39;1977&#39;</span><span class="p">,</span>\
+                 <span class="s1">&#39;1978&#39;</span><span class="p">,</span> <span class="s1">&#39;1979&#39;</span><span class="p">,</span> <span class="s1">&#39;1981&#39;</span> <span class="p">,</span><span class="s1">&#39;1982&#39;</span><span class="p">,</span> <span class="s1">&#39;1983&#39;</span><span class="p">,</span><span class="s1">&#39;1984&#39;</span><span class="p">,</span><span class="s1">&#39;1985&#39;</span><span class="p">,</span>\
+                 <span class="s1">&#39;1986&#39;</span><span class="p">,</span><span class="s1">&#39;1987&#39;</span><span class="p">,</span><span class="s1">&#39;1988&#39;</span><span class="p">,</span> <span class="s1">&#39;1989&#39;</span><span class="p">,</span> <span class="s1">&#39;1991&#39;</span> <span class="p">,</span><span class="s1">&#39;1992&#39;</span><span class="p">,</span> <span class="s1">&#39;1993&#39;</span><span class="p">,</span>\
+                 <span class="s1">&#39;1994&#39;</span><span class="p">,</span><span class="s1">&#39;1995&#39;</span><span class="p">,</span><span class="s1">&#39;1996&#39;</span><span class="p">,</span><span class="s1">&#39;1997&#39;</span><span class="p">,</span><span class="s1">&#39;1998&#39;</span><span class="p">,</span> <span class="s1">&#39;1999&#39;</span><span class="p">,</span> <span class="s1">&#39;2001&#39;</span><span class="p">,</span>\
+                 <span class="s1">&#39;2002&#39;</span><span class="p">,</span> <span class="s1">&#39;2003&#39;</span><span class="p">,</span> <span class="s1">&#39;2004&#39;</span><span class="p">,</span> <span class="s1">&#39;2005&#39;</span><span class="p">,</span> <span class="s1">&#39;2006&#39;</span><span class="p">,</span> <span class="s1">&#39;2007&#39;</span><span class="p">,</span> <span class="s1">&#39;2007&#39;</span><span class="p">,</span>\
+                 <span class="s1">&#39;2008&#39;</span><span class="p">,</span> <span class="s1">&#39;2009&#39;</span><span class="p">,</span> <span class="s1">&#39;2011&#39;</span><span class="p">,</span> <span class="s1">&#39;2012&#39;</span><span class="p">,</span> <span class="s1">&#39;2013&#39;</span><span class="p">,</span> <span class="s1">&#39;2014&#39;</span><span class="p">,</span> <span class="s1">&#39;2015&#39;</span><span class="p">,</span>\
+                 <span class="s1">&#39;2016&#39;</span><span class="p">,</span> <span class="s1">&#39;2017&#39;</span><span class="p">,</span> <span class="s1">&#39;2018&#39;</span><span class="p">]</span> <span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">months_replace</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Dec</span><span class="se">\x96</span><span class="s1">Jan</span><span class="se">\x96</span><span class="s1">Feb&#39;</span><span class="p">:</span> <span class="s1">&#39;First Quarter&#39;</span><span class="p">,</span> <span class="s1">&#39;Mar</span><span class="se">\x96</span><span class="s1">Apr</span><span class="se">\x96</span><span class="s1">May&#39;</span><span class="p">:</span> <span class="s1">&#39;Second Quarter&#39;</span><span class="p">,</span> \
+                  <span class="s1">&#39;Jun</span><span class="se">\x96</span><span class="s1">Jul</span><span class="se">\x96</span><span class="s1">Aug&#39;</span><span class="p">:</span> <span class="s1">&#39;Third Quarter&#39;</span><span class="p">,</span> <span class="s1">&#39;Sep</span><span class="se">\x96</span><span class="s1">Oct</span><span class="se">\x96</span><span class="s1">Nov&#39;</span><span class="p">:</span> <span class="s1">&#39;Fourth Quarter&#39;</span><span class="p">}</span>
 <span class="n">df</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">months_replace</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">df</span>
 </pre></div>
@@ -14877,7 +14885,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[475]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
 
 
 
@@ -14905,21 +14913,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>element</th>
       <th>unit</th>
       <th>1961</th>
-      <th>1962</th>
-      <th>1963</th>
-      <th>1964</th>
-      <th>1965</th>
-      <th>1966</th>
-      <th>...</th>
+      <th>1970</th>
+      <th>1980</th>
+      <th>1990</th>
+      <th>2000</th>
       <th>2010</th>
-      <th>2011</th>
-      <th>2012</th>
-      <th>2013</th>
-      <th>2014</th>
-      <th>2015</th>
-      <th>2016</th>
-      <th>2017</th>
-      <th>2018</th>
       <th>2019</th>
     </tr>
   </thead>
@@ -14931,21 +14929,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Temperature change</td>
       <td>°C</td>
       <td>0.777</td>
-      <td>0.062</td>
-      <td>2.744</td>
-      <td>-5.232</td>
-      <td>1.868</td>
-      <td>3.629</td>
-      <td>...</td>
+      <td>0.804</td>
+      <td>-0.393</td>
+      <td>0.634</td>
+      <td>1.565</td>
       <td>3.601</td>
-      <td>1.179</td>
-      <td>-0.583</td>
-      <td>1.233</td>
-      <td>1.755</td>
-      <td>1.943</td>
-      <td>3.416</td>
-      <td>1.201</td>
-      <td>1.996</td>
       <td>2.951</td>
     </tr>
     <tr>
@@ -14954,16 +14942,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>January</td>
       <td>Standard Deviation</td>
       <td>°C</td>
-      <td>1.950</td>
-      <td>1.950</td>
-      <td>1.950</td>
-      <td>1.950</td>
-      <td>1.950</td>
-      <td>1.950</td>
-      <td>...</td>
-      <td>1.950</td>
-      <td>1.950</td>
-      <td>1.950</td>
       <td>1.950</td>
       <td>1.950</td>
       <td>1.950</td>
@@ -14979,21 +14957,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Temperature change</td>
       <td>°C</td>
       <td>-1.743</td>
-      <td>2.465</td>
-      <td>3.919</td>
-      <td>-0.202</td>
-      <td>-0.096</td>
-      <td>3.397</td>
-      <td>...</td>
+      <td>1.809</td>
+      <td>-1.222</td>
+      <td>-0.310</td>
+      <td>-0.901</td>
       <td>1.212</td>
-      <td>0.321</td>
-      <td>-3.201</td>
-      <td>1.494</td>
-      <td>-3.187</td>
-      <td>2.699</td>
-      <td>2.251</td>
-      <td>-0.323</td>
-      <td>2.705</td>
       <td>0.086</td>
     </tr>
     <tr>
@@ -15002,16 +14970,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>February</td>
       <td>Standard Deviation</td>
       <td>°C</td>
-      <td>2.597</td>
-      <td>2.597</td>
-      <td>2.597</td>
-      <td>2.597</td>
-      <td>2.597</td>
-      <td>2.597</td>
-      <td>...</td>
-      <td>2.597</td>
-      <td>2.597</td>
-      <td>2.597</td>
       <td>2.597</td>
       <td>2.597</td>
       <td>2.597</td>
@@ -15027,35 +14985,15 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Temperature change</td>
       <td>°C</td>
       <td>0.516</td>
-      <td>1.336</td>
-      <td>0.403</td>
-      <td>1.659</td>
-      <td>-0.909</td>
-      <td>-0.069</td>
-      <td>...</td>
+      <td>-0.915</td>
+      <td>-0.628</td>
+      <td>-1.000</td>
+      <td>-0.267</td>
       <td>3.390</td>
-      <td>0.748</td>
-      <td>-0.527</td>
-      <td>2.246</td>
-      <td>-0.076</td>
-      <td>-0.497</td>
-      <td>2.296</td>
-      <td>0.834</td>
-      <td>4.418</td>
       <td>0.234</td>
     </tr>
     <tr>
       <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
       <td>...</td>
       <td>...</td>
       <td>...</td>
@@ -15080,16 +15018,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>0.247</td>
       <td>0.247</td>
       <td>0.247</td>
-      <td>...</td>
-      <td>0.247</td>
-      <td>0.247</td>
-      <td>0.247</td>
-      <td>0.247</td>
-      <td>0.247</td>
-      <td>0.247</td>
-      <td>0.247</td>
-      <td>0.247</td>
-      <td>0.247</td>
       <td>0.247</td>
     </tr>
     <tr>
@@ -15099,21 +15027,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Temperature change</td>
       <td>°C</td>
       <td>0.036</td>
-      <td>0.461</td>
-      <td>0.665</td>
-      <td>-0.157</td>
-      <td>-0.203</td>
-      <td>-0.295</td>
-      <td>...</td>
+      <td>-0.146</td>
+      <td>0.317</td>
+      <td>0.209</td>
+      <td>0.539</td>
       <td>0.958</td>
-      <td>1.106</td>
-      <td>0.885</td>
-      <td>1.041</td>
-      <td>0.999</td>
-      <td>1.670</td>
-      <td>1.535</td>
-      <td>1.194</td>
-      <td>0.581</td>
       <td>1.233</td>
     </tr>
     <tr>
@@ -15122,16 +15040,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Fourth Quarter</td>
       <td>Standard Deviation</td>
       <td>°C</td>
-      <td>0.378</td>
-      <td>0.378</td>
-      <td>0.378</td>
-      <td>0.378</td>
-      <td>0.378</td>
-      <td>0.378</td>
-      <td>...</td>
-      <td>0.378</td>
-      <td>0.378</td>
-      <td>0.378</td>
       <td>0.378</td>
       <td>0.378</td>
       <td>0.378</td>
@@ -15147,21 +15055,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Temperature change</td>
       <td>°C</td>
       <td>0.165</td>
-      <td>-0.009</td>
-      <td>0.134</td>
-      <td>-0.190</td>
-      <td>-0.385</td>
-      <td>-0.166</td>
-      <td>...</td>
+      <td>0.061</td>
+      <td>0.546</td>
+      <td>0.509</td>
+      <td>0.866</td>
       <td>1.246</td>
-      <td>0.805</td>
-      <td>1.274</td>
-      <td>0.991</td>
-      <td>0.811</td>
-      <td>1.282</td>
-      <td>1.850</td>
-      <td>1.349</td>
-      <td>1.088</td>
       <td>1.297</td>
     </tr>
     <tr>
@@ -15176,21 +15074,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>0.260</td>
       <td>0.260</td>
       <td>0.260</td>
-      <td>...</td>
-      <td>0.260</td>
-      <td>0.260</td>
-      <td>0.260</td>
-      <td>0.260</td>
-      <td>0.260</td>
-      <td>0.260</td>
-      <td>0.260</td>
-      <td>0.260</td>
-      <td>0.260</td>
       <td>0.260</td>
     </tr>
   </tbody>
 </table>
-<p>9656 rows × 63 columns</p>
+<p>9656 rows × 11 columns</p>
 </div>
 </div>
 
@@ -15204,7 +15092,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 3> This is the temperature of all the countries on the planet in any given year from 1961 through 2019. I have removed the area code, months code, and element code columns since we will not be needing them. </font></p>
+<p><font size = 3> This is the temperature of all the countries on the planet in any given year from 1961 through 2019. I have removed the area code, months code, and element code columns since we will not be needing them. We will be using 4 categories - area which labels which country/region the data is for, months which labels which months the data is for, element which indicates if the data is either temperature change or a standard deviation, and the unit signifying whether it's in Fahrenheit or Celius but for this dataset we will be using Celcius.</font></p>
 
 </div>
 </div>
@@ -15221,7 +15109,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[476]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span>
@@ -15242,7 +15130,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[476]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
 
 
 
@@ -15270,21 +15158,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>element</th>
       <th>unit</th>
       <th>1961</th>
-      <th>1962</th>
-      <th>1963</th>
-      <th>1964</th>
-      <th>1965</th>
-      <th>1966</th>
-      <th>...</th>
+      <th>1970</th>
+      <th>1980</th>
+      <th>1990</th>
+      <th>2000</th>
       <th>2010</th>
-      <th>2011</th>
-      <th>2012</th>
-      <th>2013</th>
-      <th>2014</th>
-      <th>2015</th>
-      <th>2016</th>
-      <th>2017</th>
-      <th>2018</th>
       <th>2019</th>
     </tr>
   </thead>
@@ -15296,21 +15174,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Temperature change</td>
       <td>°C</td>
       <td>0.777</td>
-      <td>0.062</td>
-      <td>2.744</td>
-      <td>-5.232</td>
-      <td>1.868</td>
-      <td>3.629</td>
-      <td>...</td>
+      <td>0.804</td>
+      <td>-0.393</td>
+      <td>0.634</td>
+      <td>1.565</td>
       <td>3.601</td>
-      <td>1.179</td>
-      <td>-0.583</td>
-      <td>1.233</td>
-      <td>1.755</td>
-      <td>1.943</td>
-      <td>3.416</td>
-      <td>1.201</td>
-      <td>1.996</td>
       <td>2.951</td>
     </tr>
     <tr>
@@ -15319,16 +15187,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>January</td>
       <td>Standard Deviation</td>
       <td>°C</td>
-      <td>1.950</td>
-      <td>1.950</td>
-      <td>1.950</td>
-      <td>1.950</td>
-      <td>1.950</td>
-      <td>1.950</td>
-      <td>...</td>
-      <td>1.950</td>
-      <td>1.950</td>
-      <td>1.950</td>
       <td>1.950</td>
       <td>1.950</td>
       <td>1.950</td>
@@ -15344,21 +15202,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Temperature change</td>
       <td>°C</td>
       <td>-1.743</td>
-      <td>2.465</td>
-      <td>3.919</td>
-      <td>-0.202</td>
-      <td>-0.096</td>
-      <td>3.397</td>
-      <td>...</td>
+      <td>1.809</td>
+      <td>-1.222</td>
+      <td>-0.310</td>
+      <td>-0.901</td>
       <td>1.212</td>
-      <td>0.321</td>
-      <td>-3.201</td>
-      <td>1.494</td>
-      <td>-3.187</td>
-      <td>2.699</td>
-      <td>2.251</td>
-      <td>-0.323</td>
-      <td>2.705</td>
       <td>0.086</td>
     </tr>
     <tr>
@@ -15367,16 +15215,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>February</td>
       <td>Standard Deviation</td>
       <td>°C</td>
-      <td>2.597</td>
-      <td>2.597</td>
-      <td>2.597</td>
-      <td>2.597</td>
-      <td>2.597</td>
-      <td>2.597</td>
-      <td>...</td>
-      <td>2.597</td>
-      <td>2.597</td>
-      <td>2.597</td>
       <td>2.597</td>
       <td>2.597</td>
       <td>2.597</td>
@@ -15392,35 +15230,15 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Temperature change</td>
       <td>°C</td>
       <td>0.516</td>
-      <td>1.336</td>
-      <td>0.403</td>
-      <td>1.659</td>
-      <td>-0.909</td>
-      <td>-0.069</td>
-      <td>...</td>
+      <td>-0.915</td>
+      <td>-0.628</td>
+      <td>-1.000</td>
+      <td>-0.267</td>
       <td>3.390</td>
-      <td>0.748</td>
-      <td>-0.527</td>
-      <td>2.246</td>
-      <td>-0.076</td>
-      <td>-0.497</td>
-      <td>2.296</td>
-      <td>0.834</td>
-      <td>4.418</td>
       <td>0.234</td>
     </tr>
     <tr>
       <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
       <td>...</td>
       <td>...</td>
       <td>...</td>
@@ -15445,16 +15263,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>0.247</td>
       <td>0.247</td>
       <td>0.247</td>
-      <td>...</td>
-      <td>0.247</td>
-      <td>0.247</td>
-      <td>0.247</td>
-      <td>0.247</td>
-      <td>0.247</td>
-      <td>0.247</td>
-      <td>0.247</td>
-      <td>0.247</td>
-      <td>0.247</td>
       <td>0.247</td>
     </tr>
     <tr>
@@ -15464,21 +15272,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Temperature change</td>
       <td>°C</td>
       <td>0.036</td>
-      <td>0.461</td>
-      <td>0.665</td>
-      <td>-0.157</td>
-      <td>-0.203</td>
-      <td>-0.295</td>
-      <td>...</td>
+      <td>-0.146</td>
+      <td>0.317</td>
+      <td>0.209</td>
+      <td>0.539</td>
       <td>0.958</td>
-      <td>1.106</td>
-      <td>0.885</td>
-      <td>1.041</td>
-      <td>0.999</td>
-      <td>1.670</td>
-      <td>1.535</td>
-      <td>1.194</td>
-      <td>0.581</td>
       <td>1.233</td>
     </tr>
     <tr>
@@ -15487,16 +15285,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Fourth Quarter</td>
       <td>Standard Deviation</td>
       <td>°C</td>
-      <td>0.378</td>
-      <td>0.378</td>
-      <td>0.378</td>
-      <td>0.378</td>
-      <td>0.378</td>
-      <td>0.378</td>
-      <td>...</td>
-      <td>0.378</td>
-      <td>0.378</td>
-      <td>0.378</td>
       <td>0.378</td>
       <td>0.378</td>
       <td>0.378</td>
@@ -15512,21 +15300,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Temperature change</td>
       <td>°C</td>
       <td>0.165</td>
-      <td>-0.009</td>
-      <td>0.134</td>
-      <td>-0.190</td>
-      <td>-0.385</td>
-      <td>-0.166</td>
-      <td>...</td>
+      <td>0.061</td>
+      <td>0.546</td>
+      <td>0.509</td>
+      <td>0.866</td>
       <td>1.246</td>
-      <td>0.805</td>
-      <td>1.274</td>
-      <td>0.991</td>
-      <td>0.811</td>
-      <td>1.282</td>
-      <td>1.850</td>
-      <td>1.349</td>
-      <td>1.088</td>
       <td>1.297</td>
     </tr>
     <tr>
@@ -15541,21 +15319,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>0.260</td>
       <td>0.260</td>
       <td>0.260</td>
-      <td>...</td>
-      <td>0.260</td>
-      <td>0.260</td>
-      <td>0.260</td>
-      <td>0.260</td>
-      <td>0.260</td>
-      <td>0.260</td>
-      <td>0.260</td>
-      <td>0.260</td>
-      <td>0.260</td>
       <td>0.260</td>
     </tr>
   </tbody>
 </table>
-<p>9656 rows × 63 columns</p>
+<p>9656 rows × 11 columns</p>
 </div>
 </div>
 
@@ -15569,7 +15337,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 3> This is the data after I have removed all of the useless columns that we will not be needing for this project. Additionally I have handled the case for missing data and also renamed some of the values in the DataFrame.</font></p>
+<p><font size = 3> This is the data after I have removed all of the useless columns that we will not be needing for this project. Additionally I have handled the case for missing data and also renamed some of the values in the DataFrame. I am using this dataset to show the representation of the data. I will use the more updated data to do the analysis of the data and for linear regression which I will use to predict the average temperature change in the year 2100.</font></p>
 
 </div>
 </div>
@@ -15602,7 +15370,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[477]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">new_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;./Data1_1_2022.csv&quot;</span><span class="p">)</span>
@@ -15625,7 +15393,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[477]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
 
 
 
@@ -15761,7 +15529,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[478]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">America</span> <span class="o">=</span> <span class="n">new_df1</span><span class="p">[</span><span class="n">new_df1</span><span class="p">[</span><span class="s1">&#39;Area Code (FAO)&#39;</span><span class="p">]</span> <span class="o">==</span>  <span class="mi">231</span><span class="p">]</span>
@@ -15785,7 +15553,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[478]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 
 
 
@@ -15829,7 +15597,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[479]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">India</span> <span class="o">=</span> <span class="n">new_df1</span><span class="p">[</span><span class="n">new_df1</span><span class="p">[</span><span class="s1">&#39;Area Code (FAO)&#39;</span><span class="p">]</span> <span class="o">==</span>  <span class="mi">100</span><span class="p">]</span>
@@ -15853,7 +15621,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[479]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 
 
 
@@ -15897,7 +15665,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[480]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">UK</span> <span class="o">=</span> <span class="n">new_df1</span><span class="p">[</span><span class="n">new_df1</span><span class="p">[</span><span class="s1">&#39;Area Code (FAO)&#39;</span><span class="p">]</span> <span class="o">==</span>  <span class="mi">229</span><span class="p">]</span>
@@ -15921,7 +15689,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[480]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
 
 
 
@@ -15965,7 +15733,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[481]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">HK</span> <span class="o">=</span> <span class="n">new_df1</span><span class="p">[</span><span class="n">new_df1</span><span class="p">[</span><span class="s1">&#39;Area Code (FAO)&#39;</span><span class="p">]</span> <span class="o">==</span>  <span class="mi">96</span><span class="p">]</span>
@@ -15989,7 +15757,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[481]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
 
 
 
@@ -16033,7 +15801,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[482]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Indonesia</span> <span class="o">=</span> <span class="n">new_df1</span><span class="p">[</span><span class="n">new_df1</span><span class="p">[</span><span class="s1">&#39;Area Code (FAO)&#39;</span><span class="p">]</span> <span class="o">==</span>  <span class="mi">101</span><span class="p">]</span>
@@ -16057,7 +15825,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[482]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
 
 
 
@@ -16101,7 +15869,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[483]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Peru</span> <span class="o">=</span> <span class="n">new_df1</span><span class="p">[</span><span class="n">new_df1</span><span class="p">[</span><span class="s1">&#39;Area Code (FAO)&#39;</span><span class="p">]</span> <span class="o">==</span>  <span class="mi">170</span><span class="p">]</span>
@@ -16125,7 +15893,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[483]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 
 
 
@@ -16169,7 +15937,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[484]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Egypt</span> <span class="o">=</span> <span class="n">new_df1</span><span class="p">[</span><span class="n">new_df1</span><span class="p">[</span><span class="s1">&#39;Area Code (FAO)&#39;</span><span class="p">]</span> <span class="o">==</span>  <span class="mi">59</span><span class="p">]</span>
@@ -16193,7 +15961,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[484]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
 
 
 
@@ -16237,7 +16005,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[485]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">SF</span> <span class="o">=</span> <span class="n">new_df1</span><span class="p">[</span><span class="n">new_df1</span><span class="p">[</span><span class="s1">&#39;Area Code (FAO)&#39;</span><span class="p">]</span> <span class="o">==</span>  <span class="mi">202</span><span class="p">]</span>
@@ -16261,7 +16029,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[485]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
 
 
 
@@ -16296,7 +16064,15 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 3> I chose these 8 countries because they are in 8 different regions of the world. Looking at all these graphs of each country around the world. You can see a pattern each of the graphs. Every graph is linear with respect to the year. This shows the relationship between the temperature and the year meaning as time progresses the average change in temperature also increases. You can observe that the for each of the graphs except for Hong Kong, each of these countries for the decade from 2010-2020 has experienced the highest temperature change to date.</font></p>
+<p><font size = 3> I chose these 8 countries because they are in 8 different regions of the world. Looking at all these graphs of each country around the world. You can see a pattern in each of the graphs. Every graph is linear with respect to the year. This shows the relationship between the temperature and the year meaning as time progresses the average change in temperature also increases. You can observe that for each of the graphs except for Hong Kong, each of these countries for the decade from 2010-2020 has experienced the highest temperature change to date.</font></p>
+
+</div>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size = 5> Hypothesis testing</font></p>
 
 </div>
 </div>
@@ -16313,7 +16089,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[486]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">America</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
@@ -16378,7 +16154,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 3.351325(°C) in the United States of America</font></p>
+<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 3.351325(°C) in the United States of America. In 2020, the average rate of temperature change is 1.331(°C). This means there will be an approximate 2(°C) increase in temperature change in the next 80 years. </font></p>
 
 </div>
 </div>
@@ -16387,7 +16163,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[487]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">India</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
@@ -16452,7 +16228,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 2.090153(°C) in India</font></p>
+<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 2.090153(°C) in India. According to the dataset, the average temperature change in 2020 for India is .461. This means that there will be approximately 1.63(°C) temperature change in the next 80 years.</font></p>
 
 </div>
 </div>
@@ -16461,7 +16237,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[488]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">UK</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
@@ -16526,7 +16302,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 3.277085(°C) in the United Kindom and Northern Ireland</font></p>
+<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 3.277085(°C) in the United Kingdom and Northern Ireland. According to the dataset, the average temperature change in 2020 in the United Kingdom and Northern Ireland is 1.392(°C). This means that there will be approximately 1.885(°C) temperature change in the next 80 years in the United Kingdom and Northern Ireland area.</font></p>
 
 </div>
 </div>
@@ -16535,7 +16311,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[489]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">HK</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
@@ -16600,7 +16376,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 3.318558(°C) in China/Hong Kong area</font></p>
+<p><font size = 3> If the rate of Temperature Change continues to be the, same the predicted Temperature change in the year 2100 will be 3.318558(°C) in the China/Hong Kong area. According to the dataset, the average temperature change in the China/Hong Kong area in the year 2020 is 1.703(°C). This means that there will be approximately a 1.616(°C) temperature change in the next 80 years in China/Hong Kong area.</font></p>
 
 </div>
 </div>
@@ -16609,7 +16385,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[490]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">Indonesia</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
@@ -16674,7 +16450,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 2.307697(°C) in Indonesia</font></p>
+<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 2.307697(°C) in Indonesia. According to the dataset, the average temperature change in the Indonesia area in the year 2020 is 1.259 (°C). This means that there will be a temperature change of 1.049(°C) in the next 80 years in the Indonesia area.</font></p>
 
 </div>
 </div>
@@ -16683,7 +16459,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[491]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">Peru</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
@@ -16748,7 +16524,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 2.760461(°C) in Peru</font></p>
+<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 2.760461(°C) in Peru. According to the dataset, the average temperature change in the year 2020 in Peru is 1.502(°C). This means that there will be a temperature change of 1.26(°C) in the next 80 years in the Peru area.</font></p>
 
 </div>
 </div>
@@ -16757,7 +16533,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[492]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">Egypt</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
@@ -16822,7 +16598,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 3.252468(°C) in Egypt</font></p>
+<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 3.252468(°C) in Egypt. According to the dataset, the average temperature change in Egypt for the year 2020 is 1.091. This means that there will be approximately 2.16(°C) temperature change in the next 80 years in the Egypt area.</font></p>
 
 </div>
 </div>
@@ -16831,7 +16607,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[493]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">SF</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
@@ -16896,7 +16672,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 2.822844(°C) in South Africa</font></p>
+<p><font size = 3> If the rate of Temperature Change continues to be the same the predicted Temperature change in the year 2100 will be 2.822844(°C) in South Africa. According to the dataset, the average temperature change for the South Africa area in the year 2020 is .867(°C). This means that there will be approximately a 2(°C) temperature change in the next 80 years.</font></p>
 
 </div>
 </div>
@@ -16904,7 +16680,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 3> After Observing the Linear Regression above, you can clearly see that there is a uptrend for every country that was graphed throughout the world. ** Expand on the idea**</font></p>
+<p><font size = 5> Conclusion/ Insights Attained</font></p>
 
 </div>
 </div>
@@ -16912,26 +16688,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size = 5> Hypothesis testing</font></p>
+<p><font size = 3> After doing a thorough analysis of the change in temperature in multiple different countries throughout the world. It is safe to say that the change in temperature is something that people should start concerning themselves with. After observing the linear regression above, you can clearly see that there is an uptrend for every country that was graphed throughout the world. According to the Linear Regression model, The United States of America, Egypt, and South Africa are predicted to have an average temperature change of over 2(°C) in the next 80 years. At this rate, there will be catastrophic effects on the environment ranging from bigger and greater natural disasters, floods, droughts, etc. Additionally, as the temperature slowly rises throughout the world, it will also cause the condensed icebergs in Antarctica to slowly melt and cause an increase in the ocean's sea level causing floods for all the coasts throughout the world. It is important to use data science techniques such as machine learning to keep monitoring the temperature change around the world because we will see adverse impacts on human migration as they try to move more inland. Furthermore, countries like the United Arab Emirates and China have begun laying out artificial islands to have access to inhabitable land.</font></p>
 
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 </body>
 
@@ -16942,6 +16702,3 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 </html>
-=======
-IshanPatelFinal
->>>>>>> fb4ddb0bf8a267efa8149fadd0d987361e0f6028
